@@ -4,10 +4,6 @@
 
 Permanent link: [github.com/ctb/2022-may-cfde-demo/DEMO.md](https://github.com/ctb/2022-may-cfde-demo/blob/main/DEMO.md)
 
-CTB TODO:
-- clean out personal collections on portal
-- add more portal screenshots?
-
 ## Contents:
 
 [toc]
@@ -22,7 +18,19 @@ Go to [the CFDE data portal at app.nih-cfde.org/](https://app.nih-cfde.org/).
 
 Log in (upper right).
 
-Under your username (upper right), create a new personal collection. For name, you can use "Tuesday demo" or anything else. You can leave description blank.
+![](https://i.imgur.com/YVXgMVK.png)
+
+Under your username (upper right), create a new personal collection. 
+
+
+![](https://i.imgur.com/D2eEXg2.png)
+
+
+
+For name, you can use "Tuesday demo" or anything else. You can leave description blank.
+
+![](https://i.imgur.com/eNoJFep.png)
+
 
 ### Find some files
 
@@ -30,13 +38,24 @@ Go back to [the CFDE data portal main page](https://app.nih-cfde.org/).
 
 Select "File" (upper left).
 
+![](https://i.imgur.com/nIlZ2Jw.png)
+
 Use the facets on the left to select:
 * Common Fund Program: HMP
 * Project: "Longitudinal multi 'omics"
 * "has persistent ID" - True
 * Uncompressed size in Bytes - 50000000 to 60000000 (50 MB to 60 MB).
 
+![](https://i.imgur.com/7SAZK0X.png)
+
+
+![](https://i.imgur.com/9wOPGAY.png)
+
+
 With these selections, the first result should have "Filename" of `SRR5935743_1.fastq`.
+
+![](https://i.imgur.com/ULbqD7W.png)
+
 
 ### Add files to your personal collection
 
@@ -97,3 +116,12 @@ Go to the `demo/` folder and open `demo-walkthrough.ipynb` by clicking on it.
 
 You can [also see a static version of the walkthrough](https://github.com/ctb/2022-may-cfde-demo/blob/main/demo-walkthrough.ipynb).
 
+## Ideas for Thursday sessions
+
+During the Thursday co-working sessions, we will provide AWS instances with all the software pre-installed.
+
+Here are two ideas for things to do during that session:
+
+* re-do this analysis!
+* do the download and taxonomic analysis with new/different/bigger samples!
+* tackle other kinds of metagenome analyses - happy to chat about your interests!
