@@ -4,9 +4,9 @@ Demo for
 [2022 May CFDE hackathon](https://nih-cfde.github.io/2022-may-hackathon/)
 on downloading and visualizing taxonomy of iHMP data sets.
 
-The main link: [The demonstration walkthrough](DEMO.md).
+The main link: [The demonstration walkthrough.](DEMO.md)
 
-[Advanced: installing the necessary software](INSTALL.md)
+[Advanced: installing the necessary software.](INSTALL.md)
 
 Recordings will be available on [the hackathon site](https://nih-cfde.github.io/2022-may-hackathon/).
 
