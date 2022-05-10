@@ -1,0 +1,33 @@
+manifest = config.get('manifest', 'example-manifest.csv')
+
+import csv
+from urllib.parse import urlparse
+
+source_loc = {}
+outdirs = []
+with open(manifest, newline="") as fp:
+    r = csv.DictReader(fp)
+
+    for row in r:
+        drs_uri = row['drs_uri']
+        info = urlparse(drs_uri)
+
+        cli_uri = 'https://' + info.netloc
+        path = info.path.lstrip('/')
+
+        print(f"Getting {path} from {cli_uri}")
+        source_loc[path] = cli_uri
+        outdirs.append(path)
+
+rule all:
+    input:
+        outdirs
+
+rule drs_get:
+    output:
+        directory("{drs_id}")
+    params:
+        source_loc = lambda w: source_loc[w.drs_id]
+    shell: """
+        drs get -d {params.source_loc} {output}
+    """
