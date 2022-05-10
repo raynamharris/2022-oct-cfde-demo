@@ -1,9 +1,12 @@
 # CFDE/iHMP walkthrough - 2022 May CFDE Hackathon 
 
+[![hackmd-github-sync-badge](https://hackmd.io/dW9EoOh3T42eed9q21NLJQ/badge)](https://hackmd.io/dW9EoOh3T42eed9q21NLJQ)
+
+Permanent link: [github.com/ctb/2022-may-cfde-demo/DEMO.md](https://github.com/ctb/2022-may-cfde-demo/blob/main/DEMO.md)
+
 CTB TODO:
-- add links to hackathon issue https://github.com/nih-cfde/2022-may-hackathon/issues/10 
 - clean out personal collections on portal
-- add screenshots?
+- add more portal screenshots?
 
 ## Contents:
 
