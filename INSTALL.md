@@ -1,6 +1,15 @@
 # Installing the necessary software on an AWS instance
 
-CTB May 2022
+[![hackmd-github-sync-badge](https://hackmd.io/rrjnYcZ3QemfuDpt82oomw/badge)](https://hackmd.io/rrjnYcZ3QemfuDpt82oomw)
+
+Permanent link: [github.com/ctb/2022-may-cfde-demo/INSTALL.md](https://github.com/ctb/2022-may-cfde-demo/blob/main/INSTALL.md)
+
+Contact: C. Titus Brown, ctbrown@ucdavis.edu
+
+May 10, 2022
+
+Contents:
+[toc]
 
 ## Spin up an AWS instance.
 
@@ -68,3 +77,15 @@ ipython kernel install --name=cfde --user
 ```
 
 and you should now be done!
+
+## Check out git repo
+
+Check out the latest version of [the demo repo](https://github.com/ctb/2022-may-cfde-demo):
+
+```
+git clone https://github.com/ctb/2022-may-cfde-demo ~/demo
+```
+
+## Create an AMI
+
+At this point you can shut down the instance (NOT terminate!) and create an AMI for others to use.
