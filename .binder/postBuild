@@ -1,0 +1,3 @@
+#!/bin/bash
+
+pip install https://github.com/nih-cfde/ga4gh-drs-client/archive/refs/heads/fix/access_json.zip
