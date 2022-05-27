@@ -1,4 +1,13 @@
-# Installing the necessary software on an AWS instance
+# Installing the necessary software 
+
+## Option 1: Using MyBinder
+
+1. Create a `.binder/environment.yml` file with the necessary software, using conda instead of mamba. 
+2. Create a `.binder/postBuild` file to pip install the drs client. 
+3. Visit mybinder.org to create a binder. 
+
+
+## Option 2: Using AWS and JupyterHub 
 
 [![hackmd-github-sync-badge](https://hackmd.io/rrjnYcZ3QemfuDpt82oomw/badge)](https://hackmd.io/rrjnYcZ3QemfuDpt82oomw)
 
@@ -11,7 +20,7 @@ May 10, 2022
 Contents:
 [toc]
 
-## Spin up an AWS instance.
+### Spin up an AWS instance.
 
 Boot an Ubuntu 22.04 AMD64 server - I used `ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20220420`.
 
@@ -21,7 +30,7 @@ Set the root volume to have 20 GB. (You may want 100 GB if you are going to be w
 
 Make sure to enable incoming SSH, HTTP, and HTTPS.
 
-## Install The Littlest JupyterHub
+### Install The Littlest JupyterHub
 
 Log in, and then install JupyterHub per [the Littlest JupyterHub](https://tljh.jupyter.org/en/latest/):
 
@@ -56,7 +65,7 @@ Then remove the .sh file:
 rm Miniforge3*.sh
 ```
 
-## Install software.
+### Install software.
 
 Restart the terminal; you should now be the base conda environment.
 
@@ -78,7 +87,7 @@ ipython kernel install --name=cfde --user
 
 and you should now be done!
 
-## Check out git repo
+### Check out git repo
 
 Check out the latest version of [the demo repo](https://github.com/ctb/2022-may-cfde-demo):
 
@@ -86,6 +95,7 @@ Check out the latest version of [the demo repo](https://github.com/ctb/2022-may-
 git clone https://github.com/ctb/2022-may-cfde-demo ~/demo
 ```
 
-## Create an AMI
+### Create an AMI
 
 At this point you can shut down the instance (NOT terminate!) and create an AMI for others to use.
+
