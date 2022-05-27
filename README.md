@@ -1,7 +1,8 @@
 # 2022-oct-cfde-demo
 
-Demo for 2022 ASHG CFDE demo]
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/raynamharris/2022-oct-cfde-demo/HEAD)
 
+CFDE demo for 2022 ASHG workshop
 
 Adapted from the [2022 May Hackathon](https://nih-cfde.github.io/2022-may-hackathon/)
 on downloading and visualizing taxonomy of iHMP data sets.
