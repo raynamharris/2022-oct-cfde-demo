@@ -12,3 +12,4 @@ dependencies:
     - r-dplyr 
     - r-metacoder 
     - r-readr
+    - r-taxa
